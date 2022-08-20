@@ -16,4 +16,5 @@ int main(int argc, char **argv)
 
 void anotherFunction()
 {
+    auto test = new std::string;  // :)
 }
