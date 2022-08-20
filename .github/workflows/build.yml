@@ -59,4 +59,6 @@ jobs:
             clang-tidy-review-metadata.json
 
       - name: Get total comments
-        run: echo "Total comments: ${{steps.review.outputs.total_comments}}"
+        run: echo "Total comments: ${total_comments}"
+        env:
+          total_comments: ${{ steps.review.outputs.total_comments }}
