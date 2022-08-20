@@ -38,7 +38,7 @@ jobs:
             cmake \
               -DCMAKE_EXPORT_COMPILE_COMMANDS=On \
               ..
-            make -j$(nproc)
+            make "-j$(nproc)"
         shell: bash
 
       - name: clang-tidy review
