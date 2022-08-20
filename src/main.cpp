@@ -13,3 +13,7 @@ int main(int argc, char **argv)
     auto test4 = new std::string;  // :)
     return 0;
 }
+
+void anotherFunction()
+{
+}
