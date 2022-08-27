@@ -19,3 +19,9 @@ void anotherFunction()
     auto test = new std::string;   // :)
     auto test2 = new std::string;  // :)
 }
+
+void myGoodFunction()
+{
+    std::string foo = "xd";
+    std::cout << "xd: " << foo << "\n";
+}
